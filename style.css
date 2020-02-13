@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+
+body {
+  /* where i set the background color */
+    background-color: blanchedalmond;
+    font-family: 'Work Sans', sans-serif;
+}
+/* the main container */
+
+.front-side,
+.back-side {
+  background-image: url("background-texture.png");
+  width: 390px;
+  height: 220px;
+  /* display: grid; */
+  /* each student will customize based on their grid */
+  /* grid-template-columns: 2% 96% 2%;
+  grid-template-rows: 4% 92% 4%; */
+  position: relative;
+  /* adjust this to space out the cards */
+  margin: 75px auto;
+  overflow: hidden;
+  box-shadow: 2px 5px 15px 0px #29272794;
+  /* background-color:rgb(255, 208, 0); */
+}
+
+.front-side{
+  background-image: url("background-texture.png");
+
+}
+
+.name{
+  display: grid;
+  position: relative;
+  margin-left: 80px;
+  padding: 20px
+
+}
+
+.secondary{
+   padding: 40px;
+  display: grid;
+  position: relative;
+  margin-left: 55px;
+  margin-bottom: 120px;
+  align-content: center
+  
+
+}
+
+
+
+h3{
+  color: rgb(255, 255, 255)
+}
+h5{
+  color: rgb(255, 255, 255)
+}
+
+.h5{
+ font-family: 'Work Sans', sans-serif;
+ font-weight: 100;
+}
+
+
